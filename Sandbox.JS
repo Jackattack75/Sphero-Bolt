@@ -21,13 +21,13 @@ async function startProgram() {
 
 async function startProgram() {
 
-	setMainLed({ r: 0, g: 0, b: 255 });
-	await speak("Hello Square", true);
+	setMainLed({ r: 100, g: 100, b: 200 });
+	await speak("Hello skibidi fanum tax", true);
 	await delay(1);
-	for (var _i1 = 0; _i1 < 4; _i1++) {
+	for (var lol = 0; lol < 4; lol++) {
 		setMainLed(getRandomColor());
 		await Sound.Game.Coin.play(true);
-		await roll((getHeading() + 90), 60, 1);
+		await roll((getHeading() + 90), 50, 2);
 		await delay(1);
 
 	}
