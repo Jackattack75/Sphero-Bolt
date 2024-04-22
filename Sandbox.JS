@@ -26,7 +26,7 @@ async function startProgram() {
 	await delay(1);
 	for (var lol = 0; lol < 4; lol++) {
 		setMainLed(getRandomColor());
-		await Sound.Game.Coin.play(true);
+		await Sound.EightBit.Explosion.play(true);
 		await roll((getHeading() + 90), 50, 2);
 		await delay(1);
 
