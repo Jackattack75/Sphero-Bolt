@@ -18,7 +18,7 @@ async function startProgram() {
 */
 
 
-
+/*
 async function startProgram() {
 
 	setMainLed({ r: 100, g: 100, b: 200 });
@@ -32,3 +32,12 @@ async function startProgram() {
 
 	}
 }
+*/
+
+
+async function startProgram() {
+	await roll((getHeading() + 120), 100, 1);
+	await delay(1);
+	await roll((getHeading() + 120), 100, 1);
+	await delay(1);
+	await roll((getHeading() + 120), 100, 1);
