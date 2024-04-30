@@ -7,5 +7,40 @@
 
 
 async function startProgram() {
-	// Write code here
+	// Programmer: John Burke - Start Text & Audio Checkpoint Commit - Date:
+
+
+
+
+	// Programmer:             - Blue LED Checkpoint Commit - Date:
+
+
+
+
+	// Programmer:             - Sound one Checkpoint Commit - Date:
+
+
+
+
+	// Programmer:             - RED LED Checkpoint Commit - Date:
+
+
+
+
+	// Programmer:             - Sound Two Checkpoint Commit - Date:
+
+
+
+
+	// Programmer:             - Green LED Checkpoint Commit - Date:
+
+
+
+
+	// Programmer:             - Purple LED & Sound Three Checkpoint Commit - Date:
+
+
+
+
+	// Programmer:             - Finish Text & Audio Checkpoint Commit - Date:
 }
