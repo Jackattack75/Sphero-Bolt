@@ -12,8 +12,9 @@ async function startProgram() {
 	await ScrollMatrixText("Start", { r: 90, g: 255, b: 90 }, 30, true);
 
 
-	// Programmer:             - Blue LED Checkpoint Commit - Date:5/1/2024
-
+	// Programmer: Jack Sutton - Blue LED Checkpoint Commit - Date:5/1/2024
+	await roll((getHeading() + 0), 60, 2.8);
+	setMainLed({ r: 0, g: 0, b: 300});
 
 
 
