@@ -7,12 +7,12 @@
 
 
 async function startProgram() {
-	// Programmer: John Burke - Start Text & Audio Checkpoint Commit - Date:
+	// Programmer: John Burke - Start Text & Audtio Checkpoint Commit - Date:5/1/24
+	await speak("Start", true);
+	await ScrollMatrixText("Start", { r: 90, g: 255, b: 90 }, 30, true);
 
 
-
-
-	// Programmer:             - Blue LED Checkpoint Commit - Date:
+	// Programmer:             - Blue LED Checkpoint Commit - Date:5/1/2024
 
 
 
