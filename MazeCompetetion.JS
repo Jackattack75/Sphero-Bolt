@@ -18,8 +18,10 @@ async function startProgram() {
 
 
 
-	// Programmer:             - Sound one Checkpoint Commit - Date:
-
+	// Programmer: John Burke - Sound One Checkpoint Commit - Date: 5/1/2024
+	await delay(1);
+	await roll((getHeading() + 90), 60, 1.8);
+	await Sound.EightBit.Explosion.play(true);
 
 
 
