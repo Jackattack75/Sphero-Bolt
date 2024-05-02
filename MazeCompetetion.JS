@@ -34,8 +34,14 @@ async function startProgram() {
 
 
 
-	// Programmer:             - Sound Two Checkpoint Commit - Date:
-
+	// Programmer: John Burke - Sound Two Checkpoint Commit - Date:	5/2/2024
+	await delay(1);
+	await roll((getHeading() - 90), 60, 0.55);
+	await delay(1);
+	await roll((getHeading() - 90), 60, 1.3);
+	await delay(1);
+	await roll((getHeading() + 90), 60, 0.55);
+	await Sound.EightBit.Fall.play(true);
 
 
 
