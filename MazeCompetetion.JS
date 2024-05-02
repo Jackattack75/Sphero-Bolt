@@ -13,7 +13,7 @@ async function startProgram() {
 
 
 	// Programmer: Jack Sutton - Blue LED Checkpoint Commit - Date:5/1/2024
-	await roll((getHeading() + 0), 60, 2.8);
+	await roll((getHeading() + 0), 60, 2.65);
 	setMainLed({ r: 0, g: 0, b: 300});
 
 
@@ -25,9 +25,13 @@ async function startProgram() {
 
 
 
-	// Programmer: Jack Sutton  - RED LED Checkpoint Commit - Date:
-	await roll((getHeading() + 90), 60, 1.2);
+	// Programmer: Jack Sutton  - RED LED Checkpoint Commit - Date: 5/2/2024
+	await delay(1);
+	await roll((getHeading() + 90), 60, 1.4);
+	await delay(1);
+	await roll((getHeading() + 45), 60, 1.15);
 	setMainLed({ r: 300, g: 0, b: 0});
+
 
 
 	// Programmer:             - Sound Two Checkpoint Commit - Date:
