@@ -9,48 +9,57 @@
 async function startProgram() {
 	// Programmer: John Burke - Start Text & Audtio Checkpoint Commit - Date:5/1/24
 	await speak("Start", true);
-	await ScrollMatrixText("Start", { r: 90, g: 255, b: 90 }, 30, true);
+	await scrollMatrixText("Start", { r: 90, g: 255, b: 90 }, 30, true);
 
 
-	// Programmer: Jack Sutton - Blue LED Checkpoint Commit - Date:5/1/2024
-	await roll((getHeading() + 0), 60, 2.65);
+	// Programmer: Jack Sutton             - Blue LED Checkpoint Commit - Date:5/1/2024
+	await roll((getHeading() + 0), 60, 2.6);
 	setMainLed({ r: 0, g: 0, b: 300});
-
 
 
 	// Programmer: John Burke - Sound One Checkpoint Commit - Date: 5/1/2024
 	await delay(1);
-	await roll((getHeading() + 90), 60, 1.8);
+	await roll((getHeading() + 90), 60, 1.5);
 	await Sound.EightBit.Explosion.play(true);
-
+	
 
 
 	// Programmer: Jack Sutton  - RED LED Checkpoint Commit - Date: 5/2/2024
 	await delay(1);
-	await roll((getHeading() + 90), 60, 1.4);
+	await roll((getHeading() + 90), 60, 1.35);
 	await delay(1);
-	await roll((getHeading() + 45), 60, 1.15);
+	await roll((getHeading() + 45), 60, 1);
 	setMainLed({ r: 300, g: 0, b: 0});
 
 
 
 	// Programmer: John Burke - Sound Two Checkpoint Commit - Date:	5/2/2024
 	await delay(1);
-	await roll((getHeading() - 90), 60, 0.55);
+	await roll((getHeading() - 90), 35, 1.3);
 	await delay(1);
-	await roll((getHeading() - 90), 60, 1.3);
+	await roll((getHeading() - 90), 60, 1.2);
 	await delay(1);
-	await roll((getHeading() + 90), 60, 0.55);
+	await roll((getHeading() + 90), 60, 0.75);
 	await Sound.EightBit.Fall.play(true);
 
 
 
-	// Programmer:             - Green LED Checkpoint Commit - Date:
-
-
+	// Programmer: Jackn Sutton - Green LED Checkpoint Commit - Date:
+	await delay(1);
+	await roll((getHeading() + 90), 60, 0.8);
+	await delay(1);
+	await roll((getHeading() - 90), 50, 1.2);
+	setMainLed({ r: 0, g: 300, b: 0});
 
 
 	// Programmer:             - Purple LED & Sound Three Checkpoint Commit - Date:
+
+
+
+
+
+
+
 
 
 
