@@ -19,7 +19,7 @@ async function startProgram() {
 
 	// Programmer: John Burke - Sound One Checkpoint Commit - Date: 5/1/2024
 	await delay(1);
-	await roll((getHeading() + 90), 60, 1.5);
+	await roll((getHeading() + 90), 60, 1.7);
 	await Sound.EightBit.Explosion.play(true);
 	
 
@@ -37,19 +37,20 @@ async function startProgram() {
 	await delay(1);
 	await roll((getHeading() - 90), 35, 1.3);
 	await delay(1);
-	await roll((getHeading() - 90), 60, 1.2);
+	await roll((getHeading() - 90), 60, 1.4);
 	await delay(1);
-	await roll((getHeading() + 90), 60, 0.75);
+	await roll((getHeading() + 90), 60, 0.85);
 	await Sound.EightBit.Fall.play(true);
 
 
 
-	// Programmer: Jackn Sutton - Green LED Checkpoint Commit - Date:
+	// Programmer: Jack Sutton - Green LED Checkpoint Commit - Date: 5/7/2024
 	await delay(1);
 	await roll((getHeading() + 90), 60, 0.8);
 	await delay(1);
 	await roll((getHeading() - 90), 50, 1.2);
 	setMainLed({ r: 0, g: 300, b: 0});
+
 
 
 	// Programmer:             - Purple LED & Sound Three Checkpoint Commit - Date:
